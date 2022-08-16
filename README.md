@@ -59,15 +59,15 @@ okvpn_datadog:
 
 Where `app` metrics namespace.
 
-|    Name                       |    Type      |                         Description                                        |
-|-------------------------------|:------------:|:--------------------------------------------------------------------------:|
-| app.exception                 | counter      | Track how many exception occurred in application per second                |
-| app.doctrine.median           | gauge        | Median execute time of sql query (ms.)                                     |
-| app.doctrine.avg              | gauge        | Avg execute time of sql query (ms.)                                        |
-| app.doctrine.count            | rate         | Count of sql queries per second                                            |
-| app.doctrine.95percentile     | gauge        | 95th percentile of execute time of sql query (ms.)                         |
-| app.exception                 | event        | Event then exception is happens                                            |
-| app.http_request              | timing       | Measure timing how long it takes to fully render a page                    |
+|    Name                       |  Type   |                         Description                         |
+|-------------------------------|:-------:|:-----------------------------------------------------------:|
+| app.exception                 | counter | Track how many exception occurred in application per second |
+| app.doctrine.median           |  gauge  |           Median execute time of sql query (ms.)            |
+| app.doctrine.avg              |  gauge  |             Avg execute time of sql query (ms.)             |
+| app.doctrine.count            |  rate   |               Count of sql queries per second               |
+| app.doctrine.95percentile     |  gauge  |     95th percentile of execute time of sql query (ms.)      |
+| app.exception                 |  event  |               Event then exception is happens               |
+| app.http_request              | timing  |   Measure timing how long it takes to fully render a page   |
 
 ## Configuration
 
